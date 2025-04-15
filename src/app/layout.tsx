@@ -10,7 +10,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name - Full Stack Developer", // Replace "Your Name" with your actual name
+  title: "Gautam Sharma - Full Stack Developer", // Replace "Your Name" with your actual name
   description:
     "Building scalable and performant web applications with modern technologies.",
   keywords: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Name - Portfolio", // Replace "Your Name" with your actual name
+    title: "Gautam Sharma - Portfolio", // Replace "Your Name" with your actual name
     description:
       "Building scalable and performant web applications with modern technologies.",
     images: ["/img/preview.png"], // Take a screenshot of your homepage and save it as "preview.png" in the "public/img" folder.

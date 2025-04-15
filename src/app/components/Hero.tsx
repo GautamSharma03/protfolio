@@ -30,7 +30,6 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
         Crafting Beautiful & Functional Web Experiences
       </motion.h1>
 
-      {/*  Replace 'John Doe' with your actual name */}
       <motion.h4
         initial="hidden"
         whileInView="visible"
@@ -38,7 +37,7 @@ const Hero = React.forwardRef<HTMLElement, unknown>((_, ref) => {
         viewport={{ once: true, amount: 0.2 }}
         className="md:text-xl leading-6 md:leading-8 w-full sm:max-w-2xl px-4 md:max-w-3xl"
       >
-        Hey, I&apos;m John Doe, a Full Stack Developer passionate about building
+        Hey, I&apos;m Gautam Sharma, a Full Stack Developer passionate about building
         performant, user-friendly, and scalable applications.
       </motion.h4>
 

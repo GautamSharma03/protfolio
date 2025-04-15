@@ -4,13 +4,13 @@
 import { FiHome, FiMail } from "react-icons/fi";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { TbUserSquare } from "react-icons/tb";
-import { FaReact, FaNodeJs, FaDatabase, FaServer } from "react-icons/fa";
+import { FaReact, FaNodeJs,  } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiExpress,
   SiRedux,
   SiSocketdotio,
-  SiFirebase,
+  
   SiMongodb,
 } from "react-icons/si";
 
