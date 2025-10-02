@@ -12,28 +12,23 @@ const Experience = () => {
     >
       <div className=" gap-4 text-sm">
         <h2 className="text-lg font-semibold mb-2">Experience</h2>
-        <h3 className=" text-neutral-100 flex justify-between items-center">
-          <span className="font-semibold">{experience.companyName}</span>
-          <span>{experience.duration}</span>
-        </h3>
-        <h3 className=" text-neutral-100 flex justify-between items-center">
-          <span>{experience.title}</span>
-          <span>{experience.location}</span>
-        </h3>
-      </div>
-
-      <motion.ul
-        className="mt-2 space-y-3 text-neutral-100 text-sm"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-      >
-        {experience.points.map((point, index) => (
-          <li key={index} className="border-l-3 border-neutral-200 pl-3">
-            {point}
-          </li>
+        {experience.map((exp, idx) => (
+          <div key={idx} className="mb-4">
+            <h3 className="text-neutral-100 flex justify-between items-center">
+              <span className="font-semibold">{exp.companyName}</span>
+              <span>{exp.duration}</span>
+            </h3>
+            <div className="text-sm text-neutral-400 mb-1">
+              {exp.title} | {exp.location}
+            </div>
+            <ul className="list-disc list-inside text-neutral-300">
+              {exp.points.map((point, i) => (
+                <li key={i}>{point}</li>
+              ))}
+            </ul>
+          </div>
         ))}
-      </motion.ul>
+      </div>
     </motion.div>
   );
 };
