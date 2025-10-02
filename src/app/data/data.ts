@@ -186,15 +186,29 @@ export const education = {
 };
 
 // Update your work experience
-export const experience = {
-  companyName: "Summer Internship at Celebal Technologies (ReactJS)",
-  title: "Front-End Developer Intern",
-  duration: "Jun 2024 - August 2024",
-  location: "Remote",
-  points: [
-    "Completed the Celebal Summer Internship 2024 under ReactJS, focusing on real-world project development.",
-    "Gained hands-on experience with component-based architecture, API integration, and state management using React.",
-    "Demonstrated enthusiasm, diligence, and professionalism, receiving appreciation from the senior management.",
-  ],
-};
-  
+export const experience = [
+  {
+    companyName: "Summer Internship at Celebal Technologies (ReactJS)",
+    title: "Front-End Developer Intern",
+    duration: "Jun 2024 - August 2024",
+    location: "Remote",
+    points: [
+      "Completed the Celebal Summer Internship 2024 under ReactJS, focusing on real-world project development.",
+      "Gained hands-on experience with component-based architecture, API integration, and state management using React.",
+      "Demonstrated enthusiasm, diligence, and professionalism, receiving appreciation from the senior management.",
+    ],
+  },
+  {
+    companyName: "Dorayslis",
+    title: "Front-End Developer",
+    duration: "Jul 2024 – Present",
+    location: "Remote",
+    points: [
+      "Delivered production-grade React.js applications, ensuring responsive and accessible UI.",
+      "Built reusable, modular components to streamline development and enforce design consistency.",
+      "Integrated RESTful APIs with secure data handling and input validation.",
+      "Implemented cross-browser compatibility fixes and monitored performance optimizations.",
+      "Used Git for version control and collaborated via agile processes to deliver features on time.",
+    ],
+  },
+];
